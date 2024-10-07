@@ -3,12 +3,12 @@
      <StackPanel Margin="24,40,24,15">
           <TextBlock HorizontalAlignment="Center" Margin="0,0,0,12"
                Foreground="{DynamicResource ColorBrush2}" FontSize="20"
-               Text="欢迎游玩back to back!" />
+               Text="欢迎游玩使用本主页" />
  <TextBlock HorizontalAlignment="Center" Margin="0,0,0,12"
                Text="发愁测试!" />
 <TextBlock
                Text="" />
-          <!-- <local:MyHint Text="主页作者: MFn233" Margin="0,0,0,0" Padding="0,2,0,2" IsWarn="False"
+          <!-- <local:MyHint Text="主页作者: fachou" Margin="0,0,0,0" Padding="0,2,0,2" IsWarn="False"
           /> -->
           <!--这玩意可以不用放了-->
           
