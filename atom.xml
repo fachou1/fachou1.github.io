@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://blog.154870.xyz</id>
+    <title>FACHOU</title>
+    <updated>2025-06-05T15:58:47.879Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://blog.154870.xyz"/>
+    <link rel="self" href="https://blog.154870.xyz/atom.xml"/>
+    <subtitle>&lt;span id=&quot;runtime_span&quot;&gt;&lt;/span&gt;</subtitle>
+    <logo>https://blog.154870.xyz/images/avatar.png</logo>
+    <icon>https://blog.154870.xyz/favicon.ico</icon>
+    <rights>All rights reserved 2025, FACHOU</rights>
+    <entry>
+        <title type="html"><![CDATA[预开服通知]]></title>
+        <id>https://blog.154870.xyz/post/yu-kai-fu-tong-zhi/</id>
+        <link href="https://blog.154870.xyz/post/yu-kai-fu-tong-zhi/">
+        </link>
+        <updated>2025-06-05T15:57:36.000Z</updated>
+        <content type="html"><![CDATA[<p>最新进展<br>
+原定6.23-7.1现改为7.1左右</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[预开服通知]]></title>
+        <id>https://blog.154870.xyz/post/fcserver/</id>
+        <link href="https://blog.154870.xyz/post/fcserver/">
+        </link>
+        <updated>2025-05-25T14:35:42.000Z</updated>
+        <summary type="html"><![CDATA[<p>fachou于5月初准备服务器所需物品</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>fachou于5月初准备服务器所需物品</p>
+<!-- more -->
+<p>并于今日创建新专栏<br>
+原计划6月末/7月初开第一个测试档</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[停服通知]]></title>
+        <id>https://blog.154870.xyz/post/ting-fu-tong-zhi/</id>
+        <link href="https://blog.154870.xyz/post/ting-fu-tong-zhi/">
+        </link>
+        <updated>2024-10-24T12:13:18.000Z</updated>
+        <content type="html"><![CDATA[<p>服务器已于10月9日到期且停止续费</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1.21游玩公告]]></title>
+        <id>https://blog.154870.xyz/post/ywgg/</id>
+        <link href="https://blog.154870.xyz/post/ywgg/">
+        </link>
+        <updated>2024-08-18T16:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>1.21原版服务器三周目开服公告<br>
+时间：<br>
+2024/8/19~2024/9/9</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【天空】背靠背整合包游玩公告：]]></title>
+        <id>https://blog.154870.xyz/post/bkbgx/</id>
+        <link href="https://blog.154870.xyz/post/bkbgx/">
+        </link>
+        <updated>2024-06-29T12:22:07.000Z</updated>
+        <content type="html"><![CDATA[<p>整合包已经更新到1.2版本（ 游戏版本forge1.19.2），经济系统改革换面，武器耐久制度改革，夜晚可能会刷出尸潮来袭，每隔几天夜晚都不在平静，新增实用工具，增加多功能工具，自带连锁采集模组，还有有趣的史蒂夫模组，宠物玩法更新，现在宠物可以用特殊的道具复活，更好的优化等等，祝大家在服务器玩的愉快！！！<img src="https://blog.154870.xyz/post-images/1719664174865.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[服务器回顾]]></title>
+        <id>https://blog.154870.xyz/post/hg/</id>
+        <link href="https://blog.154870.xyz/post/hg/">
+        </link>
+        <updated>2024-06-29T02:24:44.000Z</updated>
+        <content type="html"><![CDATA[<p>为玩家更好的回顾旧存档</p>
+<p><a href="https://cloud.189.cn/t/z6neQjmYZjai">天翼网盘</a>&lt;访问码：6onh&gt;</p>
+<p><a href="https://www.123pan.com/s/KjHZVv-9vGc.html">123云盘</a>&lt;提取码:OfU3&gt;</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[博客更新]]></title>
+        <id>https://blog.154870.xyz/post/bkgx/</id>
+        <link href="https://blog.154870.xyz/post/bkgx/">
+        </link>
+        <updated>2024-06-29T00:58:39.000Z</updated>
+        <content type="html"><![CDATA[<p>gitalk已配置如遇到无法正常登陆情况请使用科学上网工具😀</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://blog.154870.xyz/post/about/</id>
+        <link href="https://blog.154870.xyz/post/about/">
+        </link>
+        <updated>2024-06-28T13:30:00.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝<br>
+博客正在搭建</p>
+</blockquote>
+<h2 id="关于本站">🏠 关于本站</h2>
+<h2 id="博主是谁">👨‍💻 博主是谁</h2>
+<p>、<br>
+？</p>
+<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
+<h2 id="联系我呀">📬 联系我呀</h2>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[背靠背]]></title>
+        <id>https://blog.154870.xyz/post/bei-kao-bei/</id>
+        <link href="https://blog.154870.xyz/post/bei-kao-bei/">
+        </link>
+        <updated>2024-06-25T04:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>背靠背</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[游玩公告：]]></title>
+        <id>https://blog.154870.xyz/post/xwsj/</id>
+        <link href="https://blog.154870.xyz/post/xwsj/">
+        </link>
+        <updated>2024-04-08T14:42:00.000Z</updated>
+        <content type="html"><![CDATA[<p>【天空】虚无世界3 ，该整合包是是1.16.5的版本。<br>
+欢迎来到虚无世界3 ！<br>
+注意：这是一款大型冒险和探索模组，旨在尽可能地充实游戏的每个区域。从你来到这个世界的那一刻起，你就会发现很多新的事情要做，你甚至不知道从哪里开始！<br>
+该整合包拥有<br>
+①穿越 20 多个维度，探索广阔的世界。<br>
+前往新的维度以解锁更多的维度，并持有所有维度的钥匙！<br>
+②对付分布在各个维度的超过 35 个 Boss。<br>
+接受他们的挑战并掠夺他们以获得独特的奖励。<br>
+③体验 500 多种新生物和生物，<br>
+在它们的原生环境中对付它们以获取新材料和物品。<br>
+④训练新技能，获得各种奖励和奖金。<br>
+升级以解锁新的能力和奖励。<br>
+⑤有800+任务，带来指引游戏游玩。<br>
+最后感谢大家对本服务器的支持，祝大家游玩愉快！！<br>
+服务器地址：t3**.******.cn:***16</p>
+]]></content>
+    </entry>
+</feed>
