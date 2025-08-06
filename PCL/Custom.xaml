@@ -1,11 +1,11 @@
 
 <!-- 
-    〓〓 PCL2炽翎主页 Next 〓〓
+    〓〓 PCL2FC主页 Next 〓〓
 	
-    Originally By: 雨杉楠Yu_Shan_Nan
-    Forked By: MFn233
-	维护: MFn233
-	仓库: https://github.com/MFn233/PCL-Mainpage-ChiLing
+    Originally By: FC
+    Forked By: FC
+	维护: FC
+	仓库: https://github.com/fachou1/fachou1.github.io/edit/main/PCL/Custom.xaml
 	协议: CC BY-NC-SA 4.0
     版本: 1.0.0 - Gamma
 -->
@@ -683,7 +683,7 @@
     <Border Background="#A0FFFFFF" Height="200" Margin="-25,10,-25,-20"
         BorderThickness="0,2,0,0" BorderBrush="#954024">
         <StackPanel Margin="40,15,0,20">
-            <TextBlock Text="PCL2炽翎主页 Next" Foreground="#954024" FontSize="16" Margin="0,5,5,5" />
+            <TextBlock Text="PCL2FACHOU主页 Next" Foreground="#954024" FontSize="16" Margin="0,5,5,5" />
             <TextBlock> Originally By: FACHOU<LineBreak />Forked By: FACHOU<LineBreak />v1.0.0-Gamma<LineBreak />
                 <LineBreak /> 订阅地址: <Underline>
                     <local:MyTextButton Margin="0,0,0,-3" EventType="复制文本"
@@ -706,3 +706,4 @@
         </StackPanel>
     </Border>
 </StackPanel>
+
