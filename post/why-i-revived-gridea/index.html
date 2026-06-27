@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="/styles/main.min.css">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css">
+
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+
+
+<style>:root { --heatmap-color: #39d353; }</style>
+
+
+
+<style>
+  .theme-toggle-sun  { display: flex; }
+  .theme-toggle-moon { display: none; }
+  :root.theme-light .theme-toggle-sun  { display: none; }
+  :root.theme-light .theme-toggle-moon { display: flex; }
+</style>
+
+
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem('flavor-theme');
+      var theme = saved || 'dark';
+      if (theme === 'light') {
+        document.documentElement.classList.add('theme-light');
+      }
+    } catch (e) { }
+  })();
+</script>
+  <meta name="generator" content="Gridea Pro 1.2.2">
+  <title>我为什么复活了 Gridea —— 每个想写点什么的人，都值得一个更简单的开始 | FACHOU</title>
+  
+<meta property="og:title" content="我为什么复活了 Gridea —— 每个想写点什么的人，都值得一个更简单的开始" />
+<meta property="og:type" content="article" />
+
+
+<meta name="description" content="2022 年 5 月 17 日，Gridea 发布了它的最后一个版本 v0.9.3。 此后，再也没有更新过。Issues 无人回复，PR 无人合并。一个曾经帮助 28,000 多位用户搭建了自己博客的工具，就这样安静地停在了那里。 我是那 28,000 人中的一个。">
+<link rel="canonical" href="https://fachou1.github.io/post/why-i-revived-gridea/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"我为什么复活了 Gridea —— 每个想写点什么的人，都值得一个更简单的开始","url":"https://fachou1.github.io/post/why-i-revived-gridea/","description":"2022 年 5 月 17 日，Gridea 发布了它的最后一个版本 v0.9.3。 此后，再也没有更新过。Issues 无人回复，PR 无人合并。一个曾经帮助 28,000 多位用户搭建了自己博客的工具，就这样安静地停在了那里。 我是那 28,000 人中的一个。","datePublished":"2026-06-27T20:21:11+08:00","dateModified":"2026-06-27T21:26:22+08:00","author":{"@type":"Person","name":"FACHOU"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/images/avatar.png"},"name":"FACHOU"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","item":"https://fachou1.github.io","name":"FACHOU","position":1},{"@type":"ListItem","item":"https://fachou1.github.io/post/why-i-revived-gridea/","name":"我为什么复活了 Gridea —— 每个想写点什么的人，都值得一个更简单的开始","position":2}]}</script>
+<meta property="og:title" content="我为什么复活了 Gridea —— 每个想写点什么的人，都值得一个更简单的开始">
+<meta property="og:description" content="2022 年 5 月 17 日，Gridea 发布了它的最后一个版本 v0.9.3。 此后，再也没有更新过。Issues 无人回复，PR 无人合并。一个曾经帮助 28,000 多位用户搭建了自己博客的工具，就这样安静地停在了那里。 我是那 28,000 人中的一个。">
+<meta property="og:url" content="https://fachou1.github.io/post/why-i-revived-gridea/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="FACHOU">
+<meta property="og:image" content="/images/avatar.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://fachou1.github.io/post/why-i-revived-gridea/">
+<meta name="twitter:title" content="我为什么复活了 Gridea —— 每个想写点什么的人，都值得一个更简单的开始">
+<meta name="twitter:description" content="2022 年 5 月 17 日，Gridea 发布了它的最后一个版本 v0.9.3。 此后，再也没有更新过。Issues 无人回复，PR 无人合并。一个曾经帮助 28,000 多位用户搭建了自己博客的工具，就这样安静地停在了那里。 我是那 28,000 人中的一个。">
+<meta name="twitter:image" content="/images/avatar.png">
+</head>
+<body class="flavor-theme">
+
+  <header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <div class="top-bar">
+
+      
+      <div class="top-bar__left">
+        
+        <a href="https://fachou1.github.io" class="site-avatar-link" aria-label="返回首页">
+          <img class="site-avatar" src="/images/avatar.png" alt="FACHOU" />
+        </a>
+        
+        <a href="https://fachou1.github.io" class="site-name-link">FACHOU</a>
+      </div>
+
+      
+      <nav class="top-bar__nav" id="sectionBar">
+        
+        
+        <a class="nav-item" href="/">首页</a>
+        
+        <a class="nav-item" href="/post">博客</a>
+        
+        <a class="nav-item" href="/memos">闪念</a>
+        
+        <a class="nav-item" href="/archives">归档</a>
+        
+        <a class="nav-item" href="/tags">标签</a>
+        
+        <a class="nav-item" href="/links">友链</a>
+        
+        <a class="nav-item" href="/post/about">关于</a>
+        
+        
+      </nav>
+
+      
+      <div class="top-bar__right">
+        <button class="btn-icon btn-search search-btn" id="btnSearch" type="button" aria-label="搜索">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+        <button class="btn-icon theme-toggle theme-toggle-sun" id="themeToggleSun" type="button"
+          aria-label="切换到浅色模式">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 1C12.5523 1 13 1.44772 13 2V4C13 4.55228 12.5523 5 12 5C11.4477 5 11 4.55228 11 4V2C11 1.44772 11.4477 1 12 1Z"></path>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M7 12C7 9.23858 9.23858 7 12 7C14.7614 7 17 9.23858 17 12C17 14.7614 14.7614 17 12 17C9.23858 17 7 14.7614 7 12ZM12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9Z"></path>
+            <path d="M13 20C13 19.4477 12.5523 19 12 19C11.4477 19 11 19.4477 11 20V22C11 22.5523 11.4477 23 12 23C12.5523 23 13 22.5523 13 22V20Z"></path>
+            <path d="M4.22282 4.22289C4.61335 3.83236 5.24651 3.83236 5.63704 4.22289L7.04704 5.63289C7.43756 6.02341 7.43756 6.65658 7.04704 7.0471C6.65651 7.43762 6.02335 7.43762 5.63283 7.0471L4.22282 5.6371C3.8323 5.24658 3.8323 4.61341 4.22282 4.22289Z"></path>
+            <path d="M18.367 16.9529C17.9765 16.5623 17.3433 16.5623 16.9528 16.9529C16.5623 17.3434 16.5623 17.9766 16.9528 18.3671L18.3628 19.7771C18.7533 20.1676 19.3865 20.1676 19.777 19.7771C20.1675 19.3866 20.1675 18.7534 19.777 18.3629L18.367 16.9529Z"></path>
+            <path d="M1 12C1 11.4477 1.44772 11 2 11H4C4.55228 11 5 11.4477 5 12C5 12.5523 4.55228 13 4 13H2C1.44772 13 1 12.5523 1 12Z"></path>
+            <path d="M20 11C19.4477 11 19 11.4477 19 12C19 12.5523 19.4477 13 20 13H22C22.5523 13 23 12.5523 23 12C23 11.4477 22.5523 11 22 11H20Z"></path>
+            <path d="M7.04704 16.9529C7.43756 17.3434 7.43756 17.9766 7.04704 18.3671L5.63704 19.7771C5.24651 20.1676 4.61335 20.1676 4.22282 19.7771C3.8323 19.3866 3.8323 18.7534 4.22283 18.3629L5.63283 16.9529C6.02335 16.5623 6.65651 16.5623 7.04704 16.9529Z"></path>
+            <path d="M19.777 5.6371C20.1675 5.24657 20.1675 4.61341 19.777 4.22289C19.3865 3.83236 18.7533 3.83236 18.3628 4.22289L16.9528 5.63289C16.5623 6.02341 16.5623 6.65658 16.9528 7.0471C17.3433 7.43762 17.9765 7.43762 18.367 7.0471L19.777 5.6371Z"></path>
+          </svg>
+        </button>
+        <button class="btn-icon theme-toggle theme-toggle-moon" id="themeToggleMoon" type="button"
+          aria-label="切换到深色模式">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C10.0222 2 8.08879 2.58649 6.4443 3.6853C4.79981 4.78412 3.51809 6.3459 2.76121 8.17317C2.00433 10.0004 1.8063 12.0111 2.19215 13.9509C2.578 15.8907 3.53041 17.6725 4.92894 19.0711C6.32746 20.4696 8.10929 21.422 10.0491 21.8079C11.9889 22.1937 13.9996 21.9957 15.8268 21.2388C17.6541 20.4819 19.2159 19.2002 20.3147 17.5557C21.4135 15.9112 22 13.9778 22 12C22 11.5955 21.7564 11.2309 21.3827 11.0761C21.009 10.9213 20.5789 11.0069 20.2929 11.2929C19.287 12.2988 17.9226 12.864 16.5 12.864C15.0774 12.864 13.713 12.2988 12.7071 11.2929C11.7012 10.287 11.136 8.92261 11.136 7.5C11.136 6.07739 11.7012 4.71304 12.7071 3.70711C12.9931 3.42111 13.0787 2.99099 12.9239 2.61732C12.7691 2.24364 12.4045 2 12 2ZM7.55544 5.34824C8.27036 4.87055 9.05353 4.51389 9.87357 4.28778C9.39271 5.27979 9.13604 6.37666 9.13604 7.5C9.13604 9.45304 9.91189 11.3261 11.2929 12.7071C12.6739 14.0881 14.547 14.864 16.5 14.864C17.6233 14.864 18.7202 14.6073 19.7122 14.1264C19.4861 14.9465 19.1295 15.7296 18.6518 16.4446C17.7727 17.7602 16.5233 18.7855 15.0615 19.391C13.5997 19.9965 11.9911 20.155 10.4393 19.8463C8.88743 19.5376 7.46197 18.7757 6.34315 17.6569C5.21447 16.538 4.4624 15.1126 4.15372 13.5607C3.84504 12.0089 4.00347 10.4003 4.60897 8.93853C5.21447 7.47672 6.23985 6.22729 7.55544 5.34824Z"></path>
+            <path d="M19 2C19.5523 2 20 2.44772 20 3V4H21C21.5523 4 22 4.44772 22 5C22 5.55228 21.5523 6 21 6H20V7C20 7.55228 19.5523 8 19 8C18.4477 8 18 7.55228 18 7V6H17C16.4477 6 16 5.55228 16 5C16 4.44772 16.4477 4 17 4H18V3C18 2.44772 18.4477 2 19 2Z"></path>
+          </svg>
+        </button>
+        <button class="btn-icon btn-nav-toggle mobile-only" id="btnNavToggle" type="button" aria-label="切换导航">
+          <div class="hamburger" id="hamburger">
+            <span class="hamburger__line hamburger__line--top"></span>
+            <span class="hamburger__line hamburger__line--bottom"></span>
+          </div>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+
+<div class="header-spacer"></div>
+
+<script>
+(function(){
+  var btn = document.getElementById('btnNavToggle');
+  var nav = document.getElementById('sectionBar');
+  var hamburger = document.getElementById('hamburger');
+  if (btn && nav) {
+    btn.addEventListener('click', function(){
+      nav.classList.toggle('top-bar__nav--open');
+      if (hamburger) hamburger.classList.toggle('is-active');
+    });
+    nav.querySelectorAll('.nav-item').forEach(function(item){
+      item.addEventListener('click', function(){
+        nav.classList.remove('top-bar__nav--open');
+        if (hamburger) hamburger.classList.remove('is-active');
+      });
+    });
+  }
+
+  var root = document.documentElement;
+  var applyTheme = function(theme, persist){
+    if (theme === 'light') {
+      root.classList.add('theme-light');
+    } else {
+      root.classList.remove('theme-light');
+    }
+    if (persist) {
+      try { localStorage.setItem('flavor-theme', theme); } catch (e) {}
+    }
+  };
+  document.querySelectorAll('.theme-toggle').forEach(function(el){
+    el.addEventListener('click', function(){
+      applyTheme(root.classList.contains('theme-light') ? 'dark' : 'light', true);
+    });
+  });
+})();
+</script>
+
+  <main class="site-main" role="main">
+    
+<article class="article-container">
+  <header class="article-header">
+    <h1 class="article-title">我为什么复活了 Gridea —— 每个想写点什么的人，都值得一个更简单的开始</h1>
+    <div class="article-meta">
+      
+      <span class="article-meta__item">2026-06-27</span>
+      
+      <span class="article-meta__sep">·</span>
+      <span class="article-meta__item">6 分钟阅读</span>
+      
+    </div>
+    
+  </header>
+
+  
+
+  <div class="article-content">
+    <p>2022 年 5 月 17 日，Gridea 发布了它的最后一个版本 v0.9.3。</p>
+<p>此后，再也没有更新过。Issues 无人回复，PR 无人合并。一个曾经帮助 28,000 多位用户搭建了自己博客的工具，就这样安静地停在了那里。</p>
+<p>我是那 28,000 人中的一个。</p>
+<!-- more -->
+<hr />
+<h2 id="heading">一个回不去的老朋友</h2>
+<p>Gridea 对我来说不只是一个工具。它是我接触独立博客的起点。</p>
+<p>在它之前，我也试过其他方案。</p>
+<p>Hugo 构建飞快，但 Go 模板语法让人头疼 —— 官方文档自己都承认&quot;新用户最常犯的错误与上下文（the dot）有关&quot;。一个 <code>{{ . }}</code> 的作用域问题能让你调试一下午，报错信息是令人困惑的 <code>ZgotmplZ</code>。</p>
+<p>Hexo 生态丰富，中文教程遍地，但第一步就是装 Node.js + npm + Git。华为云社区有篇文章标题直接叫《Hexo 更新到 5.2.0 版本血泪踩坑史》。V2EX 上有人说&quot;升级了一下 Node，出大问题了&quot; —— 从 v12 升到 v16，Hexo 直接罢工。</p>
+<p>Jekyll 更不用说了，Ruby 的版本地狱是出了名的，有人专门写了一篇《Ruby Versioning Hell with Jekyll》（Jekyll 的 Ruby 版本地狱）来吐槽 Bundler 和 Gem 的版本互锁。</p>
+<p>这些都是优秀的工具，但它们有一个共同的问题：<strong>把运维的复杂度暴露给了只想写字的人。</strong></p>
+<p>Gridea 不一样。它是一个客户端。下载，打开，写，发布。不需要终端，不需要配环境，不需要知道 npm 是什么。对一个只想安静写点东西的人来说，这就是最好的方案。</p>
+<p>直到它停更了。</p>
+<p>知乎上有人写了好几篇《Gridea 远程连接失败与同步失败的问题汇总解决》。GitHub 上 Issue #400、#335、#976，全是同步失败的报告，有的讨论了几十条回复。Issue #1111 的标题是&quot;希望作者可以重视客户端版本的开发工作&quot;，有用户写道：</p>
+<blockquote>
+<p>&ldquo;如果需要资金的来源，可以考虑在客户端增加一些收费的功能。我相信真心需要的人会为软件进行付费的。&rdquo;</p>
+</blockquote>
+<p>然而，这条留言没有收到回复。</p>
+<p>Issue #755 里有人说：&ldquo;实话实说，我打算撤了……&rdquo;</p>
+<p>到了 2025 年、2026 年，还有人在提 Issue，但已经不会有人回应了。</p>
+<p><strong>一个好的想法被放弃了，但它解决的那个问题并没有消失。</strong></p>
+<hr />
+<h2 id="heading-1">那个问题是什么</h2>
+<p>问题很简单：<strong>想写博客的人远比能搭博客的人多得多。</strong></p>
+<p>用 Hugo，你得学 Go 模板语法 —— 有篇文章叫《Hugo Probably Isn&rsquo;t For You》（Hugo 可能不适合你），评价 Go 模板是 &ldquo;yet another ad hoc programming language&rdquo;（又一种临时拼凑的编程语言），不是 HTML，不是 JavaScript，是一种你在其他任何地方都用不到的东西。</p>
+<p>用 Hexo，换一台电脑就意味着重新搭建整个环境。知乎上《使用 Hexo，如果换了电脑怎么更新博客？》这个问题长期活跃，因为 <code>.gitignore</code> 排除了 <code>node_modules</code> 和配置文件，换机后要重装所有依赖。有人尝试用 OneDrive 同步 Hexo 目录，结果一台设备的依赖变更导致另一台设备全线报错。</p>
+<p>用 Jekyll，你得先搞定 Ruby 环境。一位开发者说：&ldquo;As someone who has had to install the Ruby/Gem/Jekyll stack quite a few times, I know the pain.&quot;（作为一个装过好几次 Ruby/Gem/Jekyll 全家桶的人，我太懂那种痛了。）最后他用 Docker 来跑 Jekyll，只为了绕过版本冲突。</p>
+<p>知乎上有人做过这样的总结：Hexo &ldquo;没有网站后台、没有文章编辑器，所有的这些几乎都基于代码来设置和操作&rdquo;，只适合&quot;技术型、学霸型&quot;用户。</p>
+<p>但博客不应该只属于技术型、学霸型的人。</p>
+<p>一个做产品经理的人想记录自己的思考，一个刚毕业的设计师想展示作品，一个全职妈妈想写育儿日记，一个退休老师想把几十年的教学心得整理出来——他们的表达欲望并不比任何程序员少，只是没人给他们一个够简单的工具。</p>
+<p><strong>工具不该挑选用户。好的工具应该对所有想用它的人张开双臂。</strong></p>
+<hr />
+<h2 id="heading-2">从零开始</h2>
+<p>所以我决定重新做这件事。</p>
+<p>不是在旧版 Gridea 上修修补补 —— 那个基于 Electron + Vue 2 的架构已经跟不上时代了。Electron 打包出来的应用体积动辄上百 MB，内存占用居高不下。Vue 2 已经进入维护模式。内置的 simple-git 模块是同步失败的根源 —— 它依赖系统安装的 Git，而很多用户的电脑上根本没有 Git。</p>
+<p>Gridea Pro 是一次完全的升级重构。</p>
+<p><strong>技术栈的选择。</strong> 我们用 Go + Wails 替代 Electron。Wails 使用系统原生 WebView 而不是打包一整个 Chromium，编译出来是一个单文件二进制，体积从上百 MB 缩减到十几 MB，内存占用降低了 80% 以上。前端用 Vue 3 + Vite 重写，配合 Tailwind CSS 和 Radix Vue 组件库。</p>
+<p><strong>同步机制的重建。</strong> 这是旧版 Gridea 最大的痛点，也是我们花最多精力解决的问题。我们彻底抛弃了 <code>os/exec</code> 调用系统 Git 的方案，改用纯 Go 实现的 <code>go-git</code> 库。这意味着：</p>
+<ul>
+<li>你的电脑上<strong>不需要安装 Git</strong>，下载 Gridea Pro 就能直接部署</li>
+<li>Token 不再以明文写入 <code>.git/config</code> 文件，而是在内存中通过 <code>BasicAuth</code> 瞬时注入，程序关闭后不留任何痕迹</li>
+<li>当没有新内容可提交时，不会傻傻地执行一次无意义的 push，而是优雅地告诉你&quot;一切已是最新&rdquo;</li>
+</ul>
+<p><strong>渲染引擎的升级。</strong> Markdown 渲染从 Node.js 的 markdown-it 换成了 Go 原生的 Goldmark，性能提升了数倍。同时支持 EJS、Jinja2、Go Template 三种模板引擎——这意味着主题开发者可以用自己最熟悉的语法来写主题，而不是被迫学一种新的模板语言。</p>
+<p><strong>数据格式的兼容。</strong> 如果你是旧版 Gridea 的用户，Gridea Pro 会在第一次启动时自动扫描你的数据目录，把旧格式的 ID 和关联关系迁移到新格式。不需要手动操作，不需要运行迁移脚本。打开就用，你甚至不会注意到迁移发生过。</p>
+<hr />
+<h2 id="heading-3">我们多做了什么</h2>
+<p>解决旧版的问题只是及格线。我们还想做一些旧版没有做到的事。</p>
+<p><strong>Memos 闪念。</strong> 不是每个想法都值得写成一篇完整的文章。有些念头，一句话就够了。Gridea Pro 内置了闪念功能，打开就写，支持标签分类，还有热力图帮你追踪记录频率。它像是博客的&quot;朋友圈&quot; —— 只不过这个朋友圈完全属于你。</p>
+<p><strong>评论系统集成。</strong> 独立博客最大的遗憾之一是缺少互动。Gridea Pro 直接集成了 Valine、Waline、Twikoo、Gitalk、Giscus、Disqus、Cusdis 七种评论方案，在设置页面勾选即用，不需要改一行代码。</p>
+<p><strong>MCP 协议支持。</strong> 这可能是 Gridea Pro 最&quot;超前&quot;的功能。我们实现了完整的 MCP（Model Context Protocol）服务，提供了 30 多个 AI 可调用的工具。你可以在 Claude、Cursor 等 AI 助手中直接管理你的博客 —— 用自然语言写文章、改配置、切主题、发布部署。博客工具和 AI 之间不再是割裂的，而是一个整体。</p>
+<p><strong>多语言。</strong> 界面支持简体中文、繁体中文、英语、日语、韩语等 11 种语言。</p>
+<hr />
+<h2 id="heading-4">数据永远是你的</h2>
+<p>这一点我怎么强调都不过分。</p>
+<p>你在 Gridea Pro 里写的所有东西 —— 文章、闪念、配置、图片 —— 全部以 Markdown 和 JSON 文件的形式保存在你本地的文件夹里。没有云端数据库，没有账号系统，没有任何形式的数据锁定。</p>
+<p>你可以用任意一个 Markdown 编辑器打开同一个目录编辑。可以用 iCloud、OneDrive 同步到多台设备。可以随时整个文件夹打包备份。即使有一天你不再使用 Gridea Pro，你的 Markdown 文件依然可以被 Hugo、Hexo、Astro 或任何静态博客生成工具读取。</p>
+<p>旧版 Gridea 的用户曾经因为项目停更而不得不&quot;撤了&quot;。我不希望这件事再发生。所以从第一天起，我们就确保：<strong>你的内容不依赖于我们的存在。</strong></p>
+<p><strong>好的工具像空气，在的时候你感觉不到，不在了你才会窒息。但最好的工具，还会在离开的时候把你的东西完好无损地留给你。</strong></p>
+<hr />
+<h2 id="heading-5">写在最后</h2>
+<p>我不敢说 Gridea Pro 是&quot;最好&quot;的博客工具。Hugo 更快，Hexo 生态更大，Astro 更现代。每个工具都有自己的位置。</p>
+<p>但我可以说，Gridea Pro 试图解决的是一个很具体的问题：<strong>让不愿意（或不会）折腾命令行的人，也能拥有一个完全属于自己的博客。</strong></p>
+<p>这个问题，旧版 Gridea 证明了它的价值 —— 10,000+ Stars，28,000+ 用户。这个需求是真实存在的。</p>
+<p>只是上一次，这个故事没有写完。</p>
+<p>现在，我们重新开始写。</p>
+<p><strong>所有伟大的事情，都有一个微不足道的开始。</strong></p>
+<p>如果你正在读这篇文章，说明你已经选择了开始。</p>
+<p>欢迎来到 Gridea Pro。</p>
+
+  </div>
+
+  
+  <nav class="post-nav">
+    
+    <div class="post-nav-card post-nav-card--empty">
+      <div class="post-nav-card__body">
+        <span class="post-nav-card__label meta-text">上一篇</span>
+        <span class="post-nav-card__empty-text">没有上一篇了~</span>
+      </div>
+    </div>
+    
+    
+    <div class="post-nav-card post-nav-card--empty post-nav-card--next">
+      <div class="post-nav-card__body">
+        <span class="post-nav-card__label meta-text">下一篇</span>
+        <span class="post-nav-card__empty-text">没有下一篇了~</span>
+      </div>
+    </div>
+    
+  </nav>
+
+  
+  
+
+
+</article>
+
+  </main>
+
+  <footer class="site-footer">
+  <div class="footer-inner">
+
+    
+    
+    <nav class="footer-nav" aria-label="页脚导航">
+      
+      <a class="footer-nav__link" href="/">首页</a>
+      
+      <a class="footer-nav__link" href="/post">博客</a>
+      
+      <a class="footer-nav__link" href="/memos">闪念</a>
+      
+      <a class="footer-nav__link" href="/archives">归档</a>
+      
+      <a class="footer-nav__link" href="/tags">标签</a>
+      
+      <a class="footer-nav__link" href="/links">友链</a>
+      
+      <a class="footer-nav__link" href="/post/about">关于</a>
+      
+    </nav>
+    
+
+    
+    <div class="footer-social">
+      
+      
+      
+      <a class="footer-social__link" href="/feed.xml" aria-label="RSS">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M6.18 15.64a2.18 2.18 0 110 4.36 2.18 2.18 0 010-4.36zM4 4.44A15.56 15.56 0 0119.56 20h-2.83A12.73 12.73 0 004 7.27V4.44zm0 5.66a9.9 9.9 0 019.9 9.9h-2.83A7.07 7.07 0 004 12.93V10.1z"/>
+        </svg>
+      </a>
+    </div>
+
+    
+    <div class="footer-copyright">
+      <p>&copy; 2026 FACHOU. All rights reserved.</p>
+    </div>
+
+    
+    
+
+    
+    <div class="footer-powered">
+      <span>Powered by <a href="https://blog.154870.xyz" target="_blank" rel="noopener noreferrer">FACHOU BLOG</a></span>
+    </div>
+
+  </div>
+</footer>
+
+  
+  <div class="search-overlay" id="searchOverlay" style="display:none;">
+  <div class="search-modal">
+    <div class="search-header">
+      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input type="text" class="search-input" id="searchInput" placeholder="搜索文章..." autocomplete="off" />
+      <span class="search-kbd">&#8984;K</span>
+      <button class="search-close" id="searchClose" type="button" aria-label="关闭搜索">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <div class="search-results" id="searchResults"></div>
+  </div>
+</div>
+
+<script src="/scripts/search.js"></script>
+  
+
+  
+
+  
+
+  
+
+<script>console.log("\n%c ✦ Gridea Pro v1.2.2 %c · Theme: flavor-theme v1.0.0 · https://gridea.pro %c\n","color:#fadfa3;background:#111111;padding:9px 14px;border-radius:4px 0 0 4px;font-weight:500;font-size:12px","color:#e05c00;background:#fff3ec;padding:9px 14px;border-radius:0 4px 4px 0;font-size:11px","")</script>
+</body>
+</html>
